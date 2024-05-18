@@ -1,0 +1,89 @@
+body {
+    background-color: #1496c5;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.cont_bien {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    border-radius: 40px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    width: 1000px;
+}
+.img_bien { 
+    margin-left: 40px ;
+    width: 200px ;
+}
+
+.cont_resi {
+    border-radius: 40px;
+    background-color: white;
+    width: 400px;
+    display:  inline-block;
+    text-align: center;
+
+
+}
+.cont_sesion {
+    background-color: white;
+    margin-top: 50px;
+    margin: 30px;
+    width: 400px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 40px;
+
+
+}
+
+.contenedor {
+    text-align: center;
+}
+
+
+.tex_bien {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    text-transform: unset ;
+    color: rgb(22, 21, 20);
+    display: inline;
+    text-align: center;
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+button {
+    padding: 20px;
+    margin: 30px;
+    border: solid;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 50px;
+    border-width: 3px;
+    border-color: rgba(44, 52, 52, 0.746);
+}
+button:hover{
+    background-color: rgb(68, 191, 52);
+    color: white;
+    cursor: pointer;
+}
+button a:hover{
+  color: white;
+
+}
+
+.text {
+    font-size: 20px;
+    color: black;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+}

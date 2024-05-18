@@ -1,0 +1,55 @@
+body{
+  margin: 0;
+}
+
+.container{
+  position: absolute;
+  background: #222;
+  color: #fff;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+}
+
+.preloader{
+  margin: auto;
+  width:  350px;
+  height: 30px;
+  background: rgb(0, 0, 0);
+  position: relative;
+}
+
+.preloader:before{
+  content: "";
+  position: absolute;
+  background: green;
+  width: 0;
+  height: 30px;
+  animation: preloader 5s infinite;
+}
+
+.preloader p{
+  margin: 0;
+  line-height: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.cerrar{
+  transform: translate(100%);
+  transition: all 0.19s;
+}
+
+@keyframes preloader {
+  90%{
+    width: 100%;
+    opacity: 1;
+  }
+  100%{
+    width: 100%;
+    opacity: 0;
+  }
+}
